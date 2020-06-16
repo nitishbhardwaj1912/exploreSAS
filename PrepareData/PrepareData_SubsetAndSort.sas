@@ -6,6 +6,9 @@
 *     Squirrel.) 													                        *;
 *  2. Sort the values by Common_Names		       									        *;
 *********************************************************************************************;
+libname PG1 base "/home/u49050836/EPG194/data";
+
+libname out "/home/u49050836/EPG194/output";
 
 /* Selection Process */
 data out.fox;
