@@ -4,6 +4,9 @@
 *  Purpose: A SAS program to create two temp table and populate each based on conditions	*;		       									        *;
 *********************************************************************************************;
 
+libname PG1 base "/home/u49050836/EPG194/data";
+
+libname out "/home/u49050836/EPG194/output";
 
 data out.parks out.monuments;
     set pg1.np_summary;
