@@ -1,7 +1,7 @@
 *********************************************************************************************;
 *  Developed by: Nitish Bhardwaj  															*;
 *															                                *;
-*  Purpose: A SAS program to selectively drop columns and explicit output in the tables		*;
+*  Purpose: A SAS program to Conditionally Creating Columns and Output Tables				*;
 *********************************************************************************************;
 
 *keep selective columns;
